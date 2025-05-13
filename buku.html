@@ -1,51 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daftar Buku | Perpustakaan Grobogan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> <img src="img/logo grobogan.png" alt="logo grobogan" height="80px"align="center">Perpuskaan Kabupaten Grobogan</h1>
-    <hr>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <h4>Halaman Web</h4>
-    <li><a href="index.html">Beranda</a></li>
-    <li> <a href="buku.html">Daftar Buku</a></li>
-    <li> <a href="kontak.html">kontak</a></li>
-    
-    <hr>
-    <h1>Daftar Buku</h1>
-    <table border="1px">
-        <img src="img/logo uku1.jpg" alt="logo buku" title="sampul buku" height="100px">
-        <tr>
-            <th>No</th>
-            <th>Cover</th>
-            <th>Judul</th>
-            <th>Penulis</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <th>1</th>
-            <td><img src="img/logo buku2.jpg" alt="cover buku" width="80px" title="Bacalah Buku Agar Mempunyai Pikiran Yang Kritis"></td>
-            <td><b>Perahu Kertas</b></td>
-            <td><b>Dr.Rifqi Maulana.Skom</b></td>
-            <td><b>Dipinjam</b></td>
-        </tr>
-        <tr>
-            <td><b>2</b></td>
-            <td><img src="img/logo buku3.png" alt="Cover Buku"width="80px"></td>
-            <td><b>Filsafat Kuno</b></td>
-            <td><b>Albert Einstain</b></td>
-            <td><b>Tersedia</b></td>
-        </tr>
-        <tr>
-            <td><u><b>3</b></u></td>
-            <td><img src="img/logo uku1.jpg" alt="Cover Buku"width="80px"title="Buku Terpopuler"></td>
-            <td><b>Book Cover</b></td>
-            <td><b>Banu Akmal</b></td>
-            <td><b>Tersedia</b></td>
-        </tr>
-    </table>
+    <header>
+        <img src="img/logo grobogan.png" alt="logo grobogan" height="80px">
+        <h1>Perpustakaan Kabupaten Grobogan</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="buku.html">Daftar Buku</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Daftar Buku</h2>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Cover</th>
+                <th>Judul</th>
+                <th>Penulis</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><img src="img/logo buku2.jpg" alt="cover buku"></td>
+                <td>Perahu Kertas</td>
+                <td>Rifqi Maulana, S.Kom</td>
+                <td class="status-dipinjam">Dipinjam</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><img src="img/logo buku3.png" alt="cover buku"></td>
+                <td>Filsafat Kuno</td>
+                <td>Albert Einstein</td>
+                <td class="status-tersedia">Tersedia</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><img src="img/logo uku1.jpg" alt="cover buku"></td>
+                <td>Book Cover</td>
+                <td>Banu Akmal</td>
+                <td class="status-tersedia">Tersedia</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Perpustakaan Kabupaten Grobogan</p>
+    </footer>
 </body>
 </html>
