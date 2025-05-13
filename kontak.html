@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>
-      <img
-        src="img/logo grobogan.png"
-        alt="logo grobogan"
-        height="80px"
-        align="center"
-      />Perpuskaan Kabupaten Grobogan
-    </h1>
-    <hr />
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak | Perpustakaan Grobogan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo grobogan.png" alt="logo grobogan" height="80px">
+        <h1>Perpustakaan Kabupaten Grobogan</h1>
+    </header>
 
-    <h4>Halaman Web</h4>
-    <li><a href="index.html">Beranda</a></li>
-    <li><a href="buku.html">Daftar Buku</a></li>
-    <li><a href="kontak.html">kontak</a></li>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="buku.html">Daftar Buku</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
 
-    <hr />
-    <h1>Kontak</h1>
-    <form>
-        <label for="name">Nama:</label><br>
-       <input type="text" for="name"><br>
-       <label for="Tanya">Pertanyaan:</label><br>
-       <textarea name="Tanya" id="Tanya"cols="50" rows="10"></textarea> <br><br>
-        <input type="submit" value="kirim">
-    </form>
-  </body>
+    <main>
+        <h2>Kontak Kami</h2>
+        <form>
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" placeholder="Masukkan nama Anda"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" placeholder="example@email.com"><br><br>
+
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" rows="6" cols="40" placeholder="Tulis pesan Anda di sini"></textarea><br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Perpustakaan Kabupaten Grobogan</p>
+    </footer>
+</body>
 </html>
