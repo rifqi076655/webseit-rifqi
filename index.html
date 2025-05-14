@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perpustakaan Grobogan</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <img src="img/logo grobogan.png" alt="logo grobogan" height="80px">
-        <h1>Perpustakaan Kabupaten Grobogan</h1>
+        <h1 data-aos="fade-down">Perpustakaan Kabupaten Grobogan</h1>
     </header>
 
     <nav>
@@ -21,19 +23,29 @@
     </nav>
 
     <main>
-        <h2>Selamat Datang di Webseit Perpustakaan Kabupaten Grobogan</h2>
-        <p>Temukan kemudahan dalam menjelajahi, meminjam, dan mengelola koleksi buku favorit Anda. Webseit ini dirancang untuk memberikan pengalaman membaca yang modern, cepat, dan praktis di mana saja dan kapan saja.
-        Mari tingkatkan budaya literasi bersama, mulai dari sini.</p>
-        <img src="img/perpus-grobogan.png"Perpustakaan" width="60%">
+        <h2 data-aos="fade-up">Selamat Datang di Website Perpustakaan Kabupaten Grobogan</h2>
+        <p data-aos="fade-right">
+            Temukan kemudahan dalam menjelajahi, meminjam, dan mengelola koleksi buku favorit Anda. 
+            Website ini dirancang untuk memberikan pengalaman membaca yang modern, cepat, dan praktis di mana saja dan kapan saja.
+            Mari tingkatkan budaya literasi bersama, mulai dari sini.
+        </p>
+        <img src="img/perpus-grobogan.png" alt="Perpustakaan" width="60%" data-aos="zoom-in">
     </main>
-    <section class="profil">
-    <img src="img/rifqi-ndaki.jpg" alt="Profil Rifqi" class="foto-profil">
-    <h3>Rifqi Maulana Ilyas</h3>
-    <p class="owner">OWNER</p>
-</section>
+
+    <section class="profil" data-aos="flip-left">
+        <img src="img/rifqi-ndaki.jpg" alt="Profil Rifqi" class="foto-profil">
+        <h3>Rifqi Maulana Ilyas</h3>
+        <p class="owner">OWNER</p>
+    </section>
 
     <footer>
         <p>&copy; 2025 Perpustakaan Kabupaten Grobogan</p>
     </footer>
+
+    <!-- AOS script di sini -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
