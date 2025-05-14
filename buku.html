@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Buku | Perpustakaan Grobogan</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="img/logo grobogan.png" alt="logo grobogan" height="80px">
-        <h1>Perpustakaan Kabupaten Grobogan</h1>
+        <img src="img/logo grobogan.png" alt="logo grobogan" height="80px" data-aos="fade-down">
+        <h1 data-aos="fade-up">Perpustakaan Kabupaten Grobogan</h1>
     </header>
 
     <nav>
@@ -21,8 +22,8 @@
     </nav>
 
     <main>
-        <h2>Daftar Buku</h2>
-        <table>
+        <h2 data-aos="fade-right">Daftar Buku</h2>
+        <table data-aos="zoom-in-up">
             <tr>
                 <th>No</th>
                 <th>Cover</th>
@@ -34,7 +35,7 @@
                 <td>1</td>
                 <td><img src="img/logo buku2.jpg" alt="cover buku"></td>
                 <td>Perahu Kertas</td>
-                <td>Rifqi Maulana, S.Kom</td>
+                <td>Rifqi Maulana Ilyas</td>
                 <td class="status-dipinjam">Dipinjam</td>
             </tr>
             <tr>
@@ -54,8 +55,13 @@
         </table>
     </main>
 
-    <footer>
+    <footer data-aos="fade-up">
         <p>&copy; 2025 Perpustakaan Kabupaten Grobogan</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
